@@ -4,7 +4,7 @@ This is a sample end-to-end automated test project using **Java + Maven + Seleni
 
 ## Demo GIF
 
-![Test Demo](DEMO.gif)
+<img src="DEMO.gif" width="600">
 
 ## Prerequisites
 - Java 17+ installed
