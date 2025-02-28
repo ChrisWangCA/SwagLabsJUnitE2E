@@ -24,6 +24,11 @@ This is a sample end-to-end automated test project using **Java + Maven + Seleni
 3. Tests will run automatically in a Chrome browser, and JUnit results will appear in the console.
 
 
+### Test Report
+After running `mvn test`, you can find the test results in:
+target/surefire-reports/TEST-tests.SwagLabsTest.xml (JUnit XML format)
+target/surefire-reports/TEST-tests.SwagLabsTest.txt (plaintext summary)
+
 
 ### Overview
 
@@ -36,11 +41,6 @@ This is a sample end-to-end automated test project using **Java + Maven + Seleni
 - Selenium: Automates browser actions (click, type, etc.).
 - WebDriverManager: Automatically handles the browser driver binaries.
 - Page Object Model: Each page has its own class encapsulating elements and actions, making the code more maintainable.
-
-### Test Report
-After running `mvn test`, you can find the test results in:
-target/surefire-reports/TEST-tests.SwagLabsTest.xml (JUnit XML format)
-target/surefire-reports/TEST-tests.SwagLabsTest.txt (plaintext summary)
 
 
 ### Notes on Different Swag Labs Users
