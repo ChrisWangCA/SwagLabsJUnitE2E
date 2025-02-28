@@ -7,7 +7,7 @@ This is a sample end-to-end automated test project using **Java + Maven + Seleni
 <img src="DEMO.gif" width="600">
 
 ## Prerequisites
-- Java 17+ installed
+- Java 11+ installed
 - Maven 3+ installed
 - Chrome Browser installed (latest recommended)
 
